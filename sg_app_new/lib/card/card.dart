@@ -21,7 +21,7 @@ class Infocard extends StatelessWidget {
     return Stack(
       children: <Widget>[
         Container(
-          width: 350,
+          width: 400,
           height: 200,
           decoration: BoxDecoration(
               color: Colors.white,
@@ -42,7 +42,7 @@ class Infocard extends StatelessWidget {
                 children: <Widget>[
                   // container = gambar
                   Container(
-                    width: 350,
+                    width: 400,
                     height: 150,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.only(

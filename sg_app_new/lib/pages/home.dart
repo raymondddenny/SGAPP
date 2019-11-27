@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sg_app_new/pages/BasicPage.dart';
-import 'package:sg_app_new/pages/HomePage.dart';
-import 'package:sg_app_new/pages/PrayerPage.dart';
-import 'package:sg_app_new/pages/ProfilePage.dart';
+import 'package:sg/pages/BasicPage.dart';
+import 'package:sg/pages/HomePage.dart';
+import 'package:sg/pages/PrayerPage.dart';
+import 'package:sg/pages/ProfilePage.dart';
 
 class SGHOME extends StatefulWidget {
   @override

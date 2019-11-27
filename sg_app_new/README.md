@@ -1,6 +1,6 @@
-# sg_app_new
+# sg
 
-SG APP
+A new Flutter project.
 
 ## Getting Started
 

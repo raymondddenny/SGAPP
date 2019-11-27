@@ -1,4 +1,4 @@
-package sgapp.com.sg_app_new
+package com.example.sg
 
 import android.os.Bundle
 

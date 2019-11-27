@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sg_app_new/auth/login_page.dart';
-import 'package:sg_app_new/pages/home.dart';
+import 'package:sg/pages/home.dart';
 
 class Welcome extends StatelessWidget {
   @override
@@ -47,7 +46,7 @@ class Welcome extends StatelessWidget {
               child: RaisedButton(
                 elevation: 5,
                 onPressed: () {
-                  Navigator.push(
+                  Navigator.pushReplacement(
                     context,
                     // MaterialPageRoute(builder: (context) => LoginPage()),
                     MaterialPageRoute(builder: (context) => SGHOME()),
@@ -78,7 +77,7 @@ class Welcome extends StatelessWidget {
                 )),
             Positioned(
               bottom: 7,
-              left: 190,
+              left: 205,
               child: FlatButton(
                 onPressed: () {},
                 child: Text(

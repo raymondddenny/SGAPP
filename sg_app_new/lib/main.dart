@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sg_app_new/welcome.dart';
+import 'package:sg/welcome.dart';
 
 void main() => runApp(MyApp());
 

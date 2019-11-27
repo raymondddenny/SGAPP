@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sg_app_new/card/card.dart';
-import 'package:sg_app_new/card/card1.dart';
+import 'package:sg/card/card.dart';
+import 'package:sg/card/card1.dart';
+import 'package:sg/pages/weeklynews1.dart';
+import 'package:sg/pages/weeklynews2.dart';
+import 'package:sg/pages/weeklynews3.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -38,23 +41,34 @@ class _HomeState extends State<Home> {
           ),
           body: TabBarView(
             children: <Widget>[
+              // TAB NEWS
               Container(
                   margin: EdgeInsets.all(20),
                   child: ListView(
                     children: <Widget>[
-                      Container(
-                        child: Center(
-                          child: Infocard(
-                            imageData:
-                                "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
-                            type: "weekly activities",
-                            title: "Student Fellowship",
+                      // card 1
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) {
+                            return WeeklyNews1();
+                          }));
+                        },
+                        child: Container(
+                          child: Center(
+                            child: Infocard(
+                              imageData:
+                                  "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
+                              type: "weekly activities",
+                              title: "Student Fellowship",
+                            ),
                           ),
                         ),
                       ),
                       SizedBox(
                         height: 20,
                       ),
+                      // card 2
                       Container(
                         child: Center(
                           child: Infocard(
@@ -68,31 +82,50 @@ class _HomeState extends State<Home> {
                       SizedBox(
                         height: 20,
                       ),
-                      Container(
-                        child: Center(
-                          child: Infocard(
-                            imageData:
-                                "https://images.unsplash.com/photo-1554220210-a273a188692a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=385&q=80",
-                            type: "weekly activities",
-                            title: "Media Training",
+                      // card 3
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) {
+                            return WeeklyNews2();
+                          }));
+                        },
+                        child: Container(
+                          child: Center(
+                            child: Infocard(
+                              imageData:
+                                  "https://images.unsplash.com/photo-1554220210-a273a188692a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=385&q=80",
+                              type: "weekly activities",
+                              title: "Media Training",
+                            ),
                           ),
                         ),
                       ),
                       SizedBox(
                         height: 20,
                       ),
-                      Container(
-                        child: Center(
-                          child: Infocard(
-                            imageData:
-                                "https://images.unsplash.com/photo-1495552665515-46e119a10545?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-                            type: "weekly activities",
-                            title: "Prayer Meetings",
+                      // card 4
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) {
+                            return WeeklyNews3();
+                          }));
+                        },
+                        child: Container(
+                          child: Center(
+                            child: Infocard(
+                              imageData:
+                                  "https://images.unsplash.com/photo-1495552665515-46e119a10545?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+                              type: "weekly activities",
+                              title: "Prayer Meetings",
+                            ),
                           ),
                         ),
                       ),
                     ],
                   )),
+              // TABS EVENTS
               Container(
                   child: ListView(
                 children: <Widget>[
@@ -138,9 +171,17 @@ class _HomeState extends State<Home> {
                   ),
                 ],
               )),
-              Center(
-                child: Text("TAB 1"),
+              // TAB REGISTER
+              Container(
+                child: ListView(
+                  children: <Widget>[
+                    Container(
+                      child: Infocard(),
+                    )
+                  ],
+                ),
               ),
+              // TAB DISCOVER
               Center(
                 child: Text("TAB 4"),
               ),
