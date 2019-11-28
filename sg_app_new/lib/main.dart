@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sg/pages/home.dart';
 import 'package:sg/welcome.dart';
 
 void main() => runApp(MyApp());
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.blue),
       title: 'SG APP',
-      home: Welcome(),
+      home: SGHOME(),
     );
   }
 }

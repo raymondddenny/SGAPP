@@ -16,10 +16,8 @@ class _SGHOMEState extends State<SGHOME> {
       case 0:
         return Home();
       case 1:
-        return Basic();
-      case 2:
         return Prayer();
-      case 3:
+      case 2:
         return Profile();
 
         break;
@@ -50,8 +48,6 @@ class _SGHOMEState extends State<SGHOME> {
                   title: Text(
                     "Home",
                   )),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.people), title: Text("BaSiC")),
               BottomNavigationBarItem(
                   icon: Icon(Icons.star), title: Text("Prayer")),
               BottomNavigationBarItem(
