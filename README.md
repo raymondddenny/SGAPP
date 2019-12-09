@@ -13,8 +13,11 @@ The app has been developed with flutter framework and dart. the app already runn
 ![Profile Page](https://drive.google.com/open?id=1lf_Z_ljMJJ-bKhz9AEIrdD85rbaD-LnR)
 
 
+# PREP
 
+ - First do the installation for dart and flutter framework by using this link : 
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Mzk1MzMzN119
+eyJoaXN0b3J5IjpbMTE0MDMyOTM5NV19
 -->
