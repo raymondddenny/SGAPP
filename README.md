@@ -15,9 +15,9 @@ The app has been developed with flutter framework and dart. the app already runn
 
 # PREP
 
- - First do the installation for dart and flutter framework by using this link : 
- - 
+ - First do the installation for dart and flutter framework by using this link : [flutter installation](https://flutter.dev/docs/get-started/install)
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDMyOTM5NV19
+eyJoaXN0b3J5IjpbLTIwMjE1NDU5MDVdfQ==
 -->
