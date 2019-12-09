@@ -6,8 +6,11 @@ The app has been developed with flutter framework and dart. the app already runn
 
 ![Splash Screen](https://drive.google.com/open?id=1lWJFZv2vFcVV38kDsPDaf7Mei0-EhJgp)
 ![Home page](https://drive.google.com/open?id=1lXF-arCaBr3iaseUEoUJn3njpxwNfJPC)
+![Event Page](https://drive.google.com/open?id=1lilil3wq25SkFO2S9o81wwTThF3CdWBi)
+![Register Page](https://drive.google.com/open?id=1m0JYtTXyuQpHq8XGpgVLy9d7p2Ah9mWg)
+![Discover page](https://drive.google.com/open?id=1m28AjLQUtxWI6xD9ZhaPUtHvh0xneXMQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDc4ODgxXX0=
+eyJoaXN0b3J5IjpbMTM4ODI0ODYxOV19
 -->
